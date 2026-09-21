@@ -8,13 +8,13 @@ body {
 }
 
 header {
-    background: #176b52;
+    background: linear-gradient(135deg, #176b52, #2ca878);
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
 main {
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 button {
@@ -22,12 +22,17 @@ button {
     color: white;
     padding: 12px 24px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #104b3a;
 }
 
 footer {
     background: #222;
     color: white;
-    padding: 15px;
+    padding: 20px;
 }
